@@ -15,11 +15,11 @@ import Link from 'next/link'
 
 const icons =[
     {
-      path:'/',
+      path:'https://www.linkedin.com/in/ankush786/',
       name:<RiLinkedinFill/>,
       },
       {
-        path:'/',
+        path:'https://github.com/Anki33',
         name:<RiGithubFill/>,
         },
 

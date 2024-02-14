@@ -3,59 +3,87 @@ import React, {useState} from 'react'
 import { Tabs, TabsList, TabsContent, TabsTrigger } from '@/components/ui/tabs'
 import Projectedcard from '@/components/Projectedcard'
 
+
 const projectData = [
   {
-    image: "/work/3.png",
-    category: "react js",
-    name: "Project One",
+    image: "/work/2.png",
+    category: "Vuejs, Keentheme",
+    name: "SIX-LEAF ",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.",
-    Link: "/",
+      "In that project Amazon providing facilities to seller in which seller can grow and AutoOverview his scale in selling. and seller can use different types of services that are provided by Amazon for Scaling and selling. ",
+    Link: "https://www.sixleaf.com/",
+    github: "/",
+  },
+  {
+    image: "/work/3.png",
+    category: "Reactjs , NestJs, NestAPI",
+    name: "OODAPP",
+    description:
+      "Developed the Web Application using React where User can buy Auction and normal products like Amazon.",
+    Link: "https://www.oodapp.com/",
+    github: "/",
+  },
+  {
+    image: "/work/3.png",
+    category: "Reactjs, WebGi, ThreeJs, GSAP",
+    name: "iPhone 3D Animation",
+    description:
+      "Learn how to find 3D models and display them on your website using WebGi and use React and GSAP to make a 3D animation of that model also learn how to optimize 3D animations in React for mobile devices.",
+    Link: "https://apple-iphone-ankush.netlify.app",
     github: "/",
   },
   {
     image: "/work/2.png",
-    category: "vue jssas",
-    name: "Project Two",
+    category: "Angular, KendoUI, ASP.Net, SQL Server",
+    name: "Stakeholder Master-FCE Connect",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.",
-    Link: "/",
+      "FCE Connect is System Dashboard use for user login ,Trade, AE, SI/Integration and Intel Employees login.",
+    Link: "https://fceconnect.intel.com/secure/Dashboard.jspa",
     github: "/",
   },
   {
     image: "/work/3.png",
-    category: "react jsddcscs",
-    name: "Nexa Website",
+    category: "Angular, KendoUI, ASP.Net, SQL Server",
+    name: "FCE PIP( Poc Information Portal)",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.",
-    Link: "/",
+      "PIP is use for electricity management tool and to calculate the consumption of electricity in Intel chip.",
+    Link: "http://167.86.118.102:8078",
     github: "/",
   },
   {
     image: "/work/3.png",
-    category: "Angular js",
-    name: "Project One",
+    category: "Angular, KendoUI, ASP.Net, SQL Server",
+    name: "Stakeholder Master-DCT",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.",
-    Link: "/",
+      "FCE DCT is Project Dashboard where can you manage and view all the projects.",
+    Link: "http://167.86.118.102:8078/dct",
+    github: "/",
+  },
+  {
+    image: "/work/3.png",
+    category: "HTML, CSS3, AnimationShadow",
+    name: "Education Teaching Website",
+    description:
+      "Learn how to build education teaching website with attractive design using simple plugins.",
+    Link: "https://shiningstartutorial.in",
     github: "/",
   },
   {
     image: "/work/2.png",
-    category: "ASP Net js",
-    name: "Project Two",
+    category: "Angular, KendoUI, ASP.Net, SQL Server",
+    name: "Stakeholder Master-Intel",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.",
-    Link: "/",
+      "Stakholder is an application is to provide and manage access to various projects to Intel Teams and external partners (companies). This application helps to map projects with external companies and manage users and helps in managing permissions of those projects among the mapped users by assigning roles.",
+    Link: "http://167.86.118.102:8078/admin/stakeholder-master-list",
     github: "/",
   },
   {
     image: "/work/3.png",
-    category: "Animation js",
-    name: "Nexa Website",
+    category: "Angular, KendoUI, ASP.Net, SQL Server",
+    name: "POWER-HUB-UI Intel",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis.",
-    Link: "/",
+      "PowerHub is an electrical component assignment and management system. PowerHub is built with the intention to ease the workload of Electrical Engineers working for installation and un-installation of the Electrical Components from factory with tracking of electrical circuits, tools and their connections. PowerHub application allows electrical engineers and designers to assign a tool(s) to a scheduler which keeps track of tool installation or un-installation in a facility.",
+    Link: "http://167.86.118.102:44313/panels",
     github: "/",
   },
 ]; 

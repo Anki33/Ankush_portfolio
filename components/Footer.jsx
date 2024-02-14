@@ -8,12 +8,12 @@ const Footer = () => {
     {/* socials */}
     <Socials
       containerstyle='flex gap-x-6 mx-auto xl:mx-0 mb-4'
-      iconStyle='text-primary dark:text-white/70 text-[20px] hover:text-white dark:hover:text-primary transition-all'
+      iconStyle='text-primary dark:text-white/70 text-[37px] hover:text-white dark:hover:text-primary transition-all'
     />
 
     {/* copyright */}
     <div className='text-muted-foreground'>
-      Copyright © Ryan Davis. All rights reserved.
+      Copyright © Ankush Kumar. All rights reserved.
     </div>
   </div>
 </div>

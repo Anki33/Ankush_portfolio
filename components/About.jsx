@@ -25,43 +25,82 @@ const infoData = [
 ];
 
 const infoExperience = [
+   
     {
-        company: 'Techbit',
-        role: 'Software developer',
-        year: '2019-2021'
+        company: 'Mobile Programming LLC',
+        role: 'Software Developer',
+        year: '2023-2023'
+    },
+     {
+        company: 'Kiwitech',
+        role: 'Software Engineer-Web',
+        year: '2022-2023'
     },
     {
-        company: 'Techbit 1',
-        role: 'Software developer',
-        year: '2019-2021'
+        company: 'LRS services',
+        role: 'Front End Developer',
+        year: '2022-2022'
     },
     {
-        company: 'Techbit 2',
-        role: 'Software developer',
+        company: 'Claritus Consulting',
+        role: 'UI developer',
+        year: '2021-2022'
+    },
+    {
+        company: 'Techbit Solutions Pvt. Ltd.',
+        role: 'Software Engineer',
+        year: '2019-2021'
+    },
+];
+const infoEducation2 = [
+   
+    {
+        company: 'Mobile Programming LLC',
+        role: 'Software Developer',
+        year: '2023-2023'
+    },
+     {
+        company: 'Kiwitech',
+        role: 'Software Engineer-Web',
+        year: '2022-2023'
+    },
+    {
+        company: 'LRS services',
+        role: 'Front End Developer',
+        year: '2022-2022'
+    },
+    {
+        company: 'Claritus Consulting',
+        role: 'UI developer',
+        year: '2021-2022'
+    },
+    {
+        company: 'Techbit Solutions Pvt. Ltd.',
+        role: 'Software Engineer',
         year: '2019-2021'
     },
 ];
 
-const qualificationEducation = [
-    { title: 'education',      
-     data:[
+
+const infoEducation = [
+ 
         {
             university: 'LPU',
-            qualification:'computer science',
+            qualification:'Bachelor of Computer Science and Engineering',
             years: '2019'
         },
         {
             
             university:'PSEB',
-            qualification: '+2',
+            qualification: 'Intermediate +2',
             years: '2015'
         },
         {
             university:'PSEB',
-            qualification: '10th',
+            qualification: 'Matriculation 10th',
             years: '2013'
         }
-    ] }
+    
     // Add more directors if needed
   ];
 
@@ -91,16 +130,16 @@ const qualificationExperience =[
 ];
 const skilldata1 = [
     {
-        name: 'HTML,CSS',
+        name: 'HTML, Bootstrap, CSS, Kendo UI, keen Themes, Tailwindcss',
     },
     {
-        name: 'HTML,CSS2',
+        name: 'Angular, ReactsJs, ASP.NET, ASP.Net Core, Entity Framework, ADO.Net',
     },
     {
-        name: 'HTML,CSS3',
+        name: 'NestApi, NestJs, NextJs, NodeJs, WebApi, RestApi, Google Charts',
     },
     {
-        name: 'HTML,CSS4',
+        name: 'Typescript, Javascript, JSX, Shadcn UI, Github, Block Chain, YouTrack, Jira, Asana, Slack',
     }
 ];
 const tools = [
@@ -135,24 +174,28 @@ const About = () => {
                 </h2>
             </div>
             <div className="flex flex-col xl:flex-row">
-            <div className="hidden xl:flex flex-1 relative">
-                <DevImage  containerstyles='bg-about_shape_light dark:bg-about_shape_dark w-[505px] h-[505px] bg-no-repeat relative' 
-                Imagesrc='/about/developer.png'/>
+            <div className="hidden xl:flex flex-1 relative left-[200px]">
+                <DevImage  containerstyles='bg-about_shape_light dark:bg-about_shape_dark w-[490px] h-[450px] bg-no-repeat relative' 
+                Imagesrc='/about/Ankushphoto-hd.png'/>
             </div>
             <div className="flex-1">
-              <Tabs defaultValue="personal">
-                <TabsList className="w-full grind xl:grind-cols-3 xl:max-w-[520px] xl:border dark:border-none">
+              <Tabs defaultValue="skills">
+                <TabsList className="w-full grind xl:grind-cols-3 xl:max-w-[520px] ">
+                <TabsTrigger className='w-[162px] xl:w-auto' value='skills'>skills</TabsTrigger>
                 <TabsTrigger className='w-[162px] xl:w-auto' value='personal'>Personal Info</TabsTrigger>
                 <TabsTrigger className='w-[162px] xl:w-auto' value='qualification'>Qualification</TabsTrigger>
-                <TabsTrigger className='w-[162px] xl:w-auto' value='skills'>skills</TabsTrigger>
+            
                 </TabsList>
                 <div className="text-lg mt-12 xl:mt-8">
                     <TabsContent value='personal'>
                     <div className="text-center xl:text-left">
                 <h3 className="h3 mb-4">Unmatched Service Quality for over 10 Years</h3>
-                <p className="subtitle max-w-xl mx-auto xl:mx-0">
+                <p className="subtitle max-w-xl xl:max-w-[720px]">
                     I specalize in crafting website with cutting edge technology, delivering dynamic and engaging user experience
+                    Bringing forth expertise in design, installation and maintenance of web systems, equipped with a diverse and promising skill-set.
+                    Proficient in an assortment of technologies, including Angular, ReactJs, ASP.NET, JavaScript. Able to effectively self-manage during independent projects, as well as collaborate in a team Work.
                 </p>
+                
                 <div className='grid xl:grid-cols-2 gap-4 mb-12'>
                     {infoData.map((item, index)=>{
                         return <div  className='flex items-center gap-x-4 mx-auto xl:mx-0'key={index}>
@@ -217,7 +260,7 @@ const About = () => {
                                 </div>
                                 <div>
                                 <div className="flex flex-col gap-y-8">
-                                {infoExperience.map((item, index)=>{
+                                {infoEducation.map((item, index)=>{
                         return <div  className='flex gap-x-8 group'key={index}>
                         <div className="h-[84px] w-[1px] bg-border relative ml-2">
                                         <div className="w-[11px] h-[11px] rounded-full bg-primary absolute -left-[5px] group-hover:translate-y-[84px] transition-all duration-500">
@@ -225,9 +268,9 @@ const About = () => {
                                         </div>
                         </div>
                                <div>
-                               <div className='font-semibold text-xl leading-none mb-2'>{item.company}</div>
-                                <div className="text-lg leading-none text-muted-foreground mb-4">{item.role}</div>
-                                <div className="text-base font-medium">{item.year}</div>
+                               <div className='font-semibold text-xl leading-none mb-2'>{item.university}</div>
+                                <div className="text-lg leading-none text-muted-foreground mb-4">{item.qualification}</div>
+                                <div className="text-base font-medium">{item.years}</div>
                                </div>
                         </div>
                     })}
@@ -245,23 +288,23 @@ const About = () => {
                     </TabsContent>
                     <TabsContent value='skills'>
                     <div className='text-center xl:text-left'>
-                        <h3 className="h3 mb-8">Tools I Use Everyday</h3>
+                        <h3 className="h3 mb-8 font-medium">Tools I Use Everyday</h3>
                         <div className="mb-16">
                             <h4 className='text-xl font-semibold mb-2'>
                             skills
                             </h4>
-                            <div className="border-b border-border mb-4 xl:max-w-[520px]"></div>
+                            <div className="border-b border-border mb-4 xl:max-w-[820px]"></div>
                             <div>
                             {skilldata1.map((item, index)=>{
-                        return <div  className='w-2/4 text-center xl:text-left mx-auto xl:mx-0'key={index}>
-                                <div className='font-medium'>{item.name}</div>
+                        return <div  className='w-10/4 text-center xl:text-left mx-auto xl:mx-0'key={index}>
+                                <div className='subtitle font-medium'>{item.name}</div>
                         </div>
                     })}
                             </div>
                         </div>
                         <div>
                            <h4 className="text-xl font-semibold mb-2 xl:text-left">Tools</h4>
-                           <div className="border-b border-border mb-4 xl:max-w-[520px]"></div>
+                           <div className="border-b border-border mb-4 xl:max-w-[820px]"></div>
                            <div className="flex gap-x-8 justify-center xl:justify-start">
                            {tools.map((item, index)=>{
                         return <div  key={index}>

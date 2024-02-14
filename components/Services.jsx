@@ -12,22 +12,22 @@ const servicesData = [
   {
     icon: <GanttChartSquare size={72} strokeWidth={0.8}/>,
     title:'web design',
-    description:'cfdsfsdfesfs efesfesrferfeeffrerfe  sreresrereresrere sreresresresresresresr'
+    description:''
   },
   {
     icon: <Blocks size={72} strokeWidth={0.8}/>,
     title:'web Development',
-    description:'cfdsfsdfesf sefesfesrferfeeff rerfesreresrereresre resreresr esresresresresr'
+    description:''
   },
   {
     icon: <Gem size={72} strokeWidth={0.8}/>,
-    title:'App Development',
-    description:'cfdsfsdfesf sefesfesrfer feeffrerfesreresre reresrere sreresresresresresresr'
+    title:'3D Animation Development',
+    description:''
   },
 ];
 
 const Serviceswork = () => {
-  return <section className='mb-12 xl:mb-36'>
+  return <section className='mt-[170px]'>
     <div className='container mx-auto'>
     <h2 className='section-title mb-12 xl:mb-24 text-center mx-auto'>My Services</h2>
     <div className=" grid xl:grid-cols-3 justify-center gap-y-12 xl:gap-y-24 xl:gap-x-8">
