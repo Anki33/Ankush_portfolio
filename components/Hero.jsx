@@ -41,7 +41,7 @@ const Hero = () => {
                   contact me <Send size={18} />
                 </Button>
               </Link>
-              <Link href="https://www.canva.com/design/DAF66Ow7bCQ/E_VEGjSQIjUU3zXUaT04Rg/edit?utm_content=DAF66Ow7bCQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="/">
+              <Link href="https://drive.google.com/file/d/1JIUteYMfkDRIgiO7W83HB9FOdnL4oYZI/view?usp=sharing" target="/">
               <Button variant='secondary' className='gap-x-2'>
                 Download CV <Download size={18}/>
             </Button>
@@ -73,10 +73,11 @@ const Hero = () => {
               endCountNum={10}
               badgetext="Happy Clients"
             />
-            <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[505px] h-[490px] bg-no-repeat absolute -top-1 -right-2">
+            <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2">
               <DevImage
-                containerstyles="bg-hero_shape w-[460px] h-[480px] bg-no-repeat relative bg-bottom"
-                Imagesrc="/hero/Ankushphoto-hd.png"
+                containerstyles="bg-hero_shape w-[510px] h-[462px] bg-no-repeat relative bg-bottom"
+                Imagesrc="/hero/final.png"
+                
               />
             </div>
           </div>

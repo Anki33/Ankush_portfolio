@@ -10,7 +10,7 @@ import Projectedcard from "@/components/Projectedcard";
 
 const projectData = [
   {
-    image: "/work/2.png",
+    image: "/work/Six-leaf.png",
     category: "vue js, Angular 8, Keen theme, ASP.Net 4.0, SQL Server",
     name: "SIX-LEAF ",
     description:

@@ -175,13 +175,13 @@ const About = () => {
             </div>
             <div className="flex flex-col xl:flex-row">
             <div className="hidden xl:flex flex-1 relative left-[200px]">
-                <DevImage  containerstyles='bg-about_shape_light dark:bg-about_shape_dark w-[490px] h-[450px] bg-no-repeat relative' 
-                Imagesrc='/about/Ankushphoto-hd.png'/>
+                <DevImage  containerstyles='bg-about_shape_light dark:bg-about_shape_dark w-[505px] h-[505px] bg-no-repeat relative' 
+                Imagesrc='/about/Copy5.png'/>
             </div>
             <div className="flex-1">
               <Tabs defaultValue="skills">
                 <TabsList className="w-full grind xl:grind-cols-3 xl:max-w-[520px] ">
-                <TabsTrigger className='w-[162px] xl:w-auto' value='skills'>skills</TabsTrigger>
+                <TabsTrigger className='w-[162px] xl:w-auto' value='skills'>Skills</TabsTrigger>
                 <TabsTrigger className='w-[162px] xl:w-auto' value='personal'>Personal Info</TabsTrigger>
                 <TabsTrigger className='w-[162px] xl:w-auto' value='qualification'>Qualification</TabsTrigger>
             
@@ -291,7 +291,7 @@ const About = () => {
                         <h3 className="h3 mb-8 font-medium">Tools I Use Everyday</h3>
                         <div className="mb-16">
                             <h4 className='text-xl font-semibold mb-2'>
-                            skills
+                            Skills
                             </h4>
                             <div className="border-b border-border mb-4 xl:max-w-[820px]"></div>
                             <div>
@@ -302,7 +302,7 @@ const About = () => {
                     })}
                             </div>
                         </div>
-                        <div>
+                        {/* <div>
                            <h4 className="text-xl font-semibold mb-2 xl:text-left">Tools</h4>
                            <div className="border-b border-border mb-4 xl:max-w-[820px]"></div>
                            <div className="flex gap-x-8 justify-center xl:justify-start">
@@ -314,7 +314,7 @@ const About = () => {
                         </div>
                     })}
                            </div>
-                        </div>
+                        </div> */}
                     </div>
                     </TabsContent>
                 </div>
