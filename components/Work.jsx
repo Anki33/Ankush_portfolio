@@ -28,7 +28,7 @@ const projectData = [
     github: "/",
   },
   {
-    image: "/work/3.png",
+    image: "/work/iphone.png",
     category: "React , WebGi (powered by Three.js) and GSAP.",
     name: "iPhone 3D Animation",
     description:

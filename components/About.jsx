@@ -37,14 +37,9 @@ const infoExperience = [
         year: '2022-2023'
     },
     {
-        company: 'LRS services',
+        company: 'G4S Security Services (India) Pvt. Ltd',
         role: 'Front End Developer',
         year: '2022-2022'
-    },
-    {
-        company: 'Claritus Consulting',
-        role: 'UI developer',
-        year: '2021-2022'
     },
     {
         company: 'Techbit Solutions Pvt. Ltd.',
@@ -143,20 +138,60 @@ const skilldata1 = [
     }
 ];
 const tools = [
+    // {
+    //     imgpath:'/about/vscode.svg',
+    // },
+    // {
+    //     imgpath:'/about/figma.svg',
+    // },
     {
-        imgpath:'/about/vscode.svg',
+        imgpath:'/about/Asp.png',
     },
     {
-        imgpath:'/about/figma.svg',
+        imgpath:'/about/ado.png',
     },
     {
-        imgpath:'/about/notion.svg',
+        imgpath:'/about/bootstrap.png',
     },
     {
-        imgpath:'/about/wordpress.svg',
+        imgpath:'/about/C.png',
+    },
+    {
+        imgpath:'/about/css.png',
+    },
+    {
+        imgpath:'/about/html.png',
+    },
+    {
+        imgpath:'/about/javascript.png',
     }
 ];
-
+const tools2 = [
+    {
+        imgpath:'/about/oop.png',
+    },
+    {
+        imgpath:'/about/sql_server.png',
+    },
+    {
+        imgpath:'/about/visual.png',
+    },
+    {
+        imgpath:'/about/visualstudio.png',
+    },
+    {
+        imgpath:'/about/ggg.png',
+    },
+    {
+        imgpath:'/about/angular.png',
+    },
+    {
+        imgpath:'/about/nodejss.png',
+    },
+    {
+        imgpath:'/about/mongodb.png',
+    }
+];
 
 
 
@@ -302,19 +337,32 @@ const About = () => {
                     })}
                             </div>
                         </div>
-                        {/* <div>
+                        <div>
                            <h4 className="text-xl font-semibold mb-2 xl:text-left">Tools</h4>
                            <div className="border-b border-border mb-4 xl:max-w-[820px]"></div>
                            <div className="flex gap-x-8 justify-center xl:justify-start">
                            {tools.map((item, index)=>{
                         return <div  key={index}>
                                <Image src={item.imgpath}
-                                width={48} height={48} alt="" priority
+                                width={75} height={75} alt="" priority
                                />
                         </div>
                     })}
                            </div>
-                        </div> */}
+                        </div>
+
+                        {/* tools 2 */}
+                        <div>
+                           <div className="flex gap-x-8 justify-center xl:justify-start">
+                           {tools2.map((item, index)=>{
+                        return <div  key={index}>
+                               <Image src={item.imgpath}
+                                width={75} height={75} alt="" priority
+                               />
+                        </div>
+                    })}
+                           </div>
+                        </div>
                     </div>
                     </TabsContent>
                 </div>

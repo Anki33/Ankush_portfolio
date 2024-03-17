@@ -11,18 +11,18 @@ import {
 const servicesData = [
   {
     icon: <GanttChartSquare size={72} strokeWidth={0.8}/>,
-    title:'web design',
-    description:''
+    title:'UI/UX Designing',
+    description:' UI/UX designers begin by understanding the needs and preferences of the target audience through user research techniques and usability testing.'
   },
   {
     icon: <Blocks size={72} strokeWidth={0.8}/>,
     title:'web Development',
-    description:''
+    description:'Web development creation and maintenance of websites and web applications. It involves various disciplines, and visually appealing online experiences.'
   },
   {
     icon: <Gem size={72} strokeWidth={0.8}/>,
-    title:'3D Animation Development',
-    description:''
+    title:'MEAN Developer',
+    description:'An MEAN developer is a professional who specializes in creating web applications using the MongoDB, Express.js, Angular and Node.js.'
   },
 ];
 

@@ -6,7 +6,7 @@ import Projectedcard from '@/components/Projectedcard'
 
 const projectData = [
   {
-    image: "/work/2.png",
+    image: "/work/Six-leaf.png",
     category: "Vuejs, Keentheme",
     name: "SIX-LEAF ",
     description:
@@ -24,7 +24,7 @@ const projectData = [
     github: "/",
   },
   {
-    image: "/work/3.png",
+    image: "/work/iphone.png",
     category: "Reactjs, WebGi, ThreeJs, GSAP",
     name: "iPhone 3D Animation",
     description:
